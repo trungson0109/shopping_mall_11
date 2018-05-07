@@ -228,4 +228,8 @@ return [
 
     ],
 
+    'isAdmin' => [
+        'level' => '1',
+    ],
+
 ];
