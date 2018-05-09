@@ -14,3 +14,23 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/home', function (){
+    return view('frontend.home');
+})->name('home');
+
+Route::get('/shop',function (){
+    return view('frontend.shop');
+})->name('shop');
+
+Route::get('/single-product',function (){
+    return view('frontend.single-product');
+})->name('single-product');
+
+Route::get('/cart',function (){
+    return view('frontend.cart');
+})->name('cart');
+
+Route::get('/checkout',function (){
+    return view('frontend.checkout');
+})->name('checkout');
